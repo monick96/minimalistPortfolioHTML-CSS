@@ -1,6 +1,6 @@
 /*estilo todo el documento*/
 body {
-    margin: 90px; /* Ajusta el margen general del documento */
+    margin: 100px; /* Ajusta el margen general del documento */
     background:#F3F3F3;
     font-family: 'Times New Roman';
     font-weight: normal;
@@ -22,7 +22,7 @@ body {
 
 #links a{
     color: black;
-    margin-right: 6px;
+    margin-right: 8px;
 }
 
 
@@ -57,10 +57,10 @@ body {
 
 
 hr {
-    border: 1px solid #000; /* Cambia el color del hr a negro */
+    border: 2px solid #000; /* Cambia el color del hr a negro */
     background-color: #000; /* Cambia el color de fondo del hr a negro */
     height: 1px; /* Ajusta el grosor del hr */
-    margin: 20px 0; /* Ajusta el margen superior e inferior del hr */
+    margin: 25px 0; /* Ajusta el margen superior e inferior del hr */
 }
 
 /*footer*/
