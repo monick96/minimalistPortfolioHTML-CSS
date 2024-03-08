@@ -1,0 +1,70 @@
+/*estilo todo el documento*/
+body {
+    margin: 90px; /* Ajusta el margen general del documento */
+    background:#F3F3F3;
+    font-family: 'Times New Roman';
+    font-weight: normal;
+    font-style: normal;
+    color: black;
+}
+
+/* Estilos para la imagen del perfil */
+#image {
+    text-align: right;
+}
+
+#image img {
+    max-width: 40%;
+    height: auto;
+}
+
+/*Estilo Link*/
+
+#links a{
+    color: black;
+    margin-right: 6px;
+}
+
+
+/* Estilos para los proyectos */
+.container{
+    margin-top: 20px;
+}
+#projects .container {
+    margin-top: 20px;
+}
+
+#projects h5 {
+    font-weight: bold;
+}
+
+#projects .description {
+    font-size: 16px;
+}
+
+#projects img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+/* Estilos para el enlace "More from this project" */
+#projects a {
+    /*display: inline-block;
+    /*margin-top: 60px; /* Aumenta el margen superior del enlace */
+    color: black;
+}
+
+
+hr {
+    border: 1px solid #000; /* Cambia el color del hr a negro */
+    background-color: #000; /* Cambia el color de fondo del hr a negro */
+    height: 1px; /* Ajusta el grosor del hr */
+    margin: 20px 0; /* Ajusta el margen superior e inferior del hr */
+}
+
+/*footer*/
+
+footer a {
+    color: black;
+}
