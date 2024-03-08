@@ -17,12 +17,17 @@ body {
     max-width: 40%;
     height: auto;
 }
+/*Estilo titulo*/
+.title h1{
+font-size: 64px;
+}
 
 /*Estilo Link*/
 
 #links a{
     color: black;
-    margin-right: 8px;
+    margin-right: 12px;
+    font-size: 20px;
 }
 
 
