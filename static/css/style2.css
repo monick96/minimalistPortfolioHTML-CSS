@@ -81,6 +81,7 @@ footer a {
 @media only screen and (max-width: 768px) {
     body {
         margin: 20px; /* Reducir el margen general en pantallas pequeñas */
+        text-align: center; /*centrar todo el texto en pantallas pequeñas*/
     }
 
     #image img {
@@ -92,7 +93,8 @@ footer a {
     }
 
     #links ul {
-        flex-wrap: wrap; /* Permitir que los enlaces se envuelvan en pantallas pequeñas */
+        /*flex-wrap: wrap; /* Permitir que los enlaces se envuelvan en pantallas pequeñas */
+        justify-content: center;
     }
 
     #links a {
@@ -110,4 +112,12 @@ footer a {
     #projects img {
         margin-top: 5px; /* Reducir el margen superior de las imágenes en pantallas pequeñas */
     }
+
+    .container a{
+        margin-top: 16px;
+        /*text-align: center;*/
+    }
+    /* footer{
+        text-align: center;
+    } */
 }
