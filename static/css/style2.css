@@ -23,8 +23,8 @@ font-size: 64px;
 }
 
 /*Estilo Link*/
-#link ul {
-    display: flex !important;
+#links ul {
+    display: flex;
 }
 
 #links a{
