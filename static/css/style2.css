@@ -76,3 +76,38 @@ hr {
 footer a {
     color: black;
 }
+
+/* Estilos para pantallas pequeñas */
+@media only screen and (max-width: 768px) {
+    body {
+        margin: 20px; /* Reducir el margen general en pantallas pequeñas */
+    }
+
+    #image img {
+        max-width: 100%; /* Asegurar que la imagen de perfil sea responsive */
+    }
+
+    .title h1 {
+        font-size: 32px; /* Reducir el tamaño del título en pantallas pequeñas */
+    }
+
+    #links ul {
+        flex-wrap: wrap; /* Permitir que los enlaces se envuelvan en pantallas pequeñas */
+    }
+
+    #links a {
+        margin-right: 8px; /* Reducir el margen entre los enlaces */
+    }
+
+    #projects .container {
+        margin-top: 10px; /* Reducir el margen entre los proyectos en pantallas pequeñas */
+    }
+
+    #projects h5 {
+        font-size: 20px; /* Reducir el tamaño de los títulos de proyectos en pantallas pequeñas */
+    }
+
+    #projects img {
+        margin-top: 5px; /* Reducir el margen superior de las imágenes en pantallas pequeñas */
+    }
+}
