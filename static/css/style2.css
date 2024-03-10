@@ -24,21 +24,21 @@ font-size: 64px;
 
 /*Estilo Link*/
 #link ul {
-    display: inline-flex !important;
+    display: flex !important;
 }
 
 #links a{
     color: black;
     margin-right: 12px;
     font-size: 20px;
-    display: inline-flex !important;
+    /* display: flex !important;*/
 }
 
 
 /* Estilos para los proyectos */
 .container{
     margin-top: 20px;
-    font-size: 1.4rem;
+    font-size: 22px;
 }
 #projects .container {
     margin-top: 22px;
