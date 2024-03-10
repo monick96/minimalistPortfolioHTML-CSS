@@ -15,8 +15,7 @@ Pon atención a los detalles de diseño, la simplicidad, y la elegancia en la di
 HTML, CSS y Bootstrap.
 
 ## Screenshots y vista previa
-![image-Portfolio](static\img\screencapture-127-0-0-1-5500-index-html-2024-03-08-19_10_11.png)
-
+![image-Portfolio](https://github.com/monick96/minimalistPortfolioHTML-CSS/blob/main/static/img/screencapture-127-0-0-1-5500-index-html-2024-03-08-19_10_11.png)
 
 ## Licencia
 [MIT](https://choosealicense.com/licenses/mit/)
