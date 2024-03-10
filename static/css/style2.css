@@ -1,9 +1,9 @@
 /*estilo todo el documento*/
 body {
-    margin: 100px; /* Ajusta el margen general del documento */
+    margin: 130px; /* Ajusta el margen general del documento */
     background:#F3F3F3;
     font-family: 'Times New Roman';
-    font-weight: normal;
+    /*font-weight: normal;*/
     font-style: normal;
     color: black;
 }
@@ -23,20 +23,25 @@ font-size: 64px;
 }
 
 /*Estilo Link*/
+#link ul {
+    display: inline-flex !important;
+}
 
 #links a{
     color: black;
     margin-right: 12px;
     font-size: 20px;
+    display: inline-flex !important;
 }
 
 
 /* Estilos para los proyectos */
 .container{
     margin-top: 20px;
+    font-size: 1.4rem;
 }
 #projects .container {
-    margin-top: 20px;
+    margin-top: 22px;
 }
 
 #projects h5 {
@@ -44,7 +49,7 @@ font-size: 64px;
 }
 
 #projects .description {
-    font-size: 16px;
+    margin: 20px 0;
 }
 
 #projects img {
@@ -55,8 +60,6 @@ font-size: 64px;
 
 /* Estilos para el enlace "More from this project" */
 #projects a {
-    /*display: inline-block;
-    /*margin-top: 60px; /* Aumenta el margen superior del enlace */
     color: black;
 }
 
