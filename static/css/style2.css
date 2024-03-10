@@ -1,9 +1,8 @@
 /*estilo todo el documento*/
 body {
-    margin: 100px; /* Ajusta el margen general del documento */
+    margin: 130px; /* Ajusta el margen general del documento */
     background:#F3F3F3;
     font-family: 'Times New Roman';
-    /*font-weight: normal;*/
     font-style: normal;
     color: black;
 }
@@ -31,7 +30,6 @@ font-size: 64px;
     color: black;
     margin-right: 12px;
     font-size: 20px;
-    /* display: flex !important;*/
 }
 
 
@@ -93,7 +91,6 @@ footer a {
     }
 
     #links ul {
-        /*flex-wrap: wrap; /* Permitir que los enlaces se envuelvan en pantallas pequeñas */
         justify-content: center;
     }
 
@@ -115,9 +112,5 @@ footer a {
 
     .container a{
         margin-top: 16px;
-        /*text-align: center;*/
     }
-    /* footer{
-        text-align: center;
-    } */
 }
